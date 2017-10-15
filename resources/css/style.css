@@ -1,0 +1,31 @@
+p {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+}
+#phis {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+}
+#earth {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+}
+#camera {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+/* flex code */
+
+.logo {
+  display: flex;
+  padding: 10px;
+  flex-flow: wrap;
+}
+.column-large {
+  border: 1px solid black;
+}
+.column-medium {
+  border: 1px solid black;
+}
+.column-small {
+  border: 1px solid black;
+}
